@@ -59,6 +59,14 @@ fun BasicCompose(
             modifier = Modifier.padding(bottom = 16.dp)
         )
 
+
+        Text(
+            text = "Serial Anime",
+            fontSize = 18.sp,
+            modifier = Modifier.padding(bottom = 24.dp)
+        )
+
+
     }
 }
 

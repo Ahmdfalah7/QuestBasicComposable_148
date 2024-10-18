@@ -56,7 +56,7 @@ fun BasicCompose(
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             ),
-
+            modifier = Modifier.padding(bottom = 16.dp)
         )
 
     }

@@ -54,7 +54,9 @@ fun BasicCompose(
             style = TextStyle(
                 fontSize = 40.sp,
                 fontWeight = FontWeight.Bold,
+                color = Color.Red
             ),
+
         )
 
     }

@@ -47,9 +47,15 @@ fun BasicCompose(
         modifier = modifier
             .fillMaxSize()
             .padding(16.dp)
-    )
-    
-    {
+    ) {
+
+        Text(
+            text = "ONE PIECE",
+            style = TextStyle(
+                fontSize = 40.sp,
+                fontWeight = FontWeight.Bold,
+            ),
+        )
 
     }
 }

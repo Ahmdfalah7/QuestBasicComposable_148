@@ -67,6 +67,13 @@ fun BasicCompose(
         )
 
 
+        Image(
+            painter = painterResource(id = R.drawable.img3),
+            contentDescription = null,
+
+        )
+
+
     }
 }
 

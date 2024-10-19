@@ -81,6 +81,18 @@ fun BasicCompose(
             fontWeight = FontWeight.Normal,
             modifier = Modifier.padding(bottom = 8.dp)
         )
+
+        Text(
+            text = "Ahmad Falah Prawira",
+            fontSize = 20.sp,
+            fontWeight = FontWeight.Medium,
+        )
+
+        Text(text = "20220140148",
+            style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold),
+
+        )
+
     }
 }
 

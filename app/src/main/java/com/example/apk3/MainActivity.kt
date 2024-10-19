@@ -70,9 +70,10 @@ fun BasicCompose(
         Image(
             painter = painterResource(id = R.drawable.img3),
             contentDescription = null,
-
+            modifier = Modifier
+                .size(200.dp)
+                .padding(bottom = 32.dp)
         )
-
 
     }
 }

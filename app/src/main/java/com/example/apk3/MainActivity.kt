@@ -97,6 +97,9 @@ fun BasicCompose(
         Image(
             painter = painterResource(id = R.drawable.puks),
             contentDescription = null,
+            modifier = Modifier
+                .size(200.dp)
+                .padding(bottom = 32.dp)
         )
     }
 }
